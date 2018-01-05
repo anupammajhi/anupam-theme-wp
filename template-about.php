@@ -47,9 +47,31 @@
 	.about-box{
 		margin-top:30px;
 	}
+	.about-section{
+		margin-top:2em;;
+	}
 	.about-text{
 		width:68%;
 		display:inline-block;
+		vertical-align:top;
+	}
+	.about-img{
+		width:28%;
+		display:inline-block;
+	}
+	.about-img .img-container{
+		position:relative;
+		width:100%;
+		padding-top:100%;
+		overflow:hidden;
+		border-radius:50%;
+	}
+	.about-img img{
+		position:absolute;
+		width:100%;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
 	}
 </style>
 	<main role="main">
@@ -87,7 +109,8 @@
 
 			</div>
 			<div class="about-img">
-
+			<div class="img-container"><img src="<?php echo get_template_directory_uri(); ?>/img/dp_1.jpg" alt="Anupam Majhi"></div>
+			<div class="img-container"><img src="<?php echo get_template_directory_uri(); ?>/img/dp_2.jpg" alt="Anupam Majhi"></div>
 			</div>
 		</div>
 
