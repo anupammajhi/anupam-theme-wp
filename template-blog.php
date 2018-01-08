@@ -66,9 +66,10 @@
 		</div>
 
 		<div class="blog-section">
-			<div class="blog-cat-box">
-				
-			</div>
+			<div class="blog-cat-box"><?php echo am_postsbycategory_main('windows',10);?></div>
+			<div class="blog-cat-box"><?php echo am_postsbycategory_main('linux',10);?></div>
+			<div class="blog-cat-box"><?php echo am_postsbycategory_main('web',10);?></div>
+			<div class="blog-cat-box"><?php echo am_postsbycategory_main('social-media',10);?></div>
 		</div>
 
 		</section>

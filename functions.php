@@ -452,3 +452,35 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 ?>
 
 <?php wp_enqueue_script( 'typist', get_template_directory_uri() . '/js/typist.js', array ( 'jquery' ), 1.1, true); ?>
+
+
+<?php
+// Post by Category
+
+function am_postsbycategory_main($my_category,$my_post_per_page) {
+// the query
+$the_query = new WP_Query( array( 'category_name' => $my_category, 'posts_per_page' => $my_post_per_page ) ); 
+
+// The Loop
+if ( $the_query->have_posts() ) {
+    $string .= '<ul class="postsbycategory widget_recent_entries">';
+    while ( $the_query->have_posts() ) {
+        $the_query->the_post();
+        $string .= '<li>
+        <a href="' . get_the_permalink() .'" rel="bookmark">' . get_the_title() .'</a>
+        <span class="blog-date">'.get_the_date().'</span>
+        <span class="clog-comments">'. get_comments_number().'</span>
+        </li>';
+            }
+} else {
+    // no posts found
+}
+$string .= '</ul>';
+
+return $string;
+
+/* Restore original Post Data */
+wp_reset_postdata();
+}
+
+?>
