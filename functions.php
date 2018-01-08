@@ -468,14 +468,19 @@ if ( $the_query->have_posts() ) {
         $the_query->the_post();
         $string .= '<li>
         <a href="' . get_the_permalink() .'" rel="bookmark">' . get_the_title() .'</a>
-        <span class="blog-date">'.get_the_date().'</span>
-        <span class="clog-comments">'. get_comments_number().'</span>
+            <span class="blog-meta">
+                <i class="iconworks" data-icon="&#105;"></i>
+                <span class="blog-date">'.get_the_date("M j, Y").'</span>
+                <i class="iconworks" data-icon="&#109;"></i>
+                <span class="blog-comments">'. get_comments_number().'</span>
+            </span>
         </li>';
             }
 } else {
     // no posts found
 }
-$string .= '</ul>';
+$string .= '</ul>
+<div class="blog-post-all"><a href="./category/'.$my_category.'">See All Posts on '.strtoupper($my_category).'</a></div>';
 
 return $string;
 
