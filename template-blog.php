@@ -61,7 +61,7 @@
 		<section>
 
 		<div class="blog-box">
-		<i class="iconworks" data-icon="P"></i>
+		<i class="iconworks" data-icon="n"></i>
 		<h1>blog</h1>
 		</div>
 
