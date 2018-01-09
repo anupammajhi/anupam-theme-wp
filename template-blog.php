@@ -51,7 +51,8 @@
 		margin-top:2em;
 	}
 	.blog-cat-box{
-		width:100%;
+		width:48%;
+		vertical-align:top;
 		display:inline-block;
 		background: #444;
 		background: rgba(0,0,0,0.5);
