@@ -49,6 +49,7 @@
 					<nav class="nav" role="navigation">
 						<ul>
 							<li><a href="<?php echo get_home_url(); ?>"><i class="iconworks" data-icon="Ç"></i><p>HOME</p></a></li>
+							<li><i class="iconworks" data-icon="Ç"></i><?php get_search_form(); ?><p>SEARCH</p></li>
 						</ul>
 					</nav>
 					<!-- /nav -->
