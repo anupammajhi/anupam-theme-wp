@@ -1,4 +1,4 @@
-<?php /* Template Name: Blog Page Template */ get_header(); ?>
+<?php /* Template Name: Blog Page Template */ get_header("header-blog"); ?>
 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 <style type="text/css">
 	.am-bg{
