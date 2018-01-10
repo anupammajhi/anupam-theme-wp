@@ -45,25 +45,26 @@
 	.blog-recommend-prev,
 	.blog-recommend-next{
 		display: inline-block;
-		padding:1em;
+		
 		margin:1em;
 		background:#bbb;
 		background:rgba(0,0,0,0.1);
 		text-align:center;
 		font-size:1.2em;
-		width:30%;
+		max-width:30%;
 	}
 	.prev-next{
 		font-weight:bold;
 		display:inline-block;
-		width:23%;
+		max-width:23%;
 		vertical-align:middle;
 	}
 	.prev-next-link{
 		font-weight:bold;
 		display:inline-block;
-		width:73%;
+		max-width:73%;
 		vertical-align:middle;
+		padding:1em;
 	}
 </style>
 
