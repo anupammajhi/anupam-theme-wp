@@ -471,8 +471,8 @@ if ( $the_query->have_posts() ) {
             <span class="blog-meta">
                 <i class="iconworks" data-icon="&#105;"></i>
                 <span class="blog-date">'.get_the_date("M j, Y").'</span>
-                <i class="iconworks" data-icon="&#109;"></i>
-                <span class="blog-comments">'. get_comments_number().'</span>
+                <i class="iconworks" data-icon="&#169;"></i>
+                <span class="blog-comments">'. getPostViews(get_the_ID()) .'</span>
             </span>
         </li>';
             }
@@ -488,4 +488,35 @@ return $string;
 wp_reset_postdata();
 }
 
+
+// function to display number of posts.
+
+function getPostViews($postID){
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0 View";
+    }
+    return $count.' Views';
+}
+
+// function to count views.
+function setPostViews($postID) {
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    }else{
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
+}
+
 ?>
+
+
+
