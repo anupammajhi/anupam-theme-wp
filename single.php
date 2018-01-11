@@ -122,7 +122,7 @@
 			</div>
 
 			<div class="blog-tags"><?php the_tags( __( 'Tagged with: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?></div>
-
+			
 			<div class="blog-recommend">
 				<div class="blog-recommend-prev"><?php echo previous_post_link('<span class="prev-text">PREVIOUS POST</span>← <span class="prev-next-link">%link</span>','%title',TRUE); ?></div>
 				<div class="blog-recommend-next"><?php echo next_post_link('<span class="next-text">NEXT POST</span><span class="prev-next-link">%link</span> →','%title',TRUE); ?></div>
