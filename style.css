@@ -197,6 +197,17 @@ main {
 	TYPOGRAPHY
 \*------------------------------------*/
 
+code,
+pre{
+	background: #555;
+	color: #ccc;
+	margin:20px 0;
+	padding:10px;
+	display: block;
+	font-family: 'Source Code Pro', monospace;
+}
+
+
 @font-face {
 	font-family:'Font-Name';
 	src:url('fonts/font-name.eot');
