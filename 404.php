@@ -35,6 +35,7 @@
 	font-style: normal;
 	display: block;
 	margin:0;
+	color:#CC2329;
 	}
 
 	.text-404{
