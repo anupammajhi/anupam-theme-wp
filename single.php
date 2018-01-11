@@ -32,6 +32,9 @@
 	.blog-category a:hover{
 		background: #555;
 	}
+	.blog-tags{
+		margin: 0 auto 4em;
+	}
 	.comments{
 		margin: 30px auto;
 	}
@@ -42,29 +45,40 @@
 	.the_champ_sharing_title{
 		text-align:center;
 	}
+	
 	.blog-recommend-prev,
 	.blog-recommend-next{
 		display: inline-block;
-		
-		margin:1em;
-		background:#bbb;
-		background:rgba(0,0,0,0.1);
+		margin:1em 0;
 		text-align:center;
 		font-size:1.2em;
-		max-width:30%;
+		vertical-align:top;
+		width:48%;
 	}
-	.prev-next{
+	.blog-recommend-prev{
+		text-align:left;
+	}
+	.blog-recommend-next{
+		text-align:right;
+	}
+	.prev-text,
+	.next-text{
 		font-weight:bold;
-		display:inline-block;
-		max-width:23%;
+		display:block;
 		vertical-align:middle;
+		color:#ccc;
+	}
+	.next-text{
+		text-align:right;
 	}
 	.prev-next-link{
-		font-weight:bold;
 		display:inline-block;
-		max-width:73%;
+		max-width:92%;
 		vertical-align:middle;
-		padding:1em;
+		padding:1em 0;
+		overflow:hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 </style>
 
@@ -110,8 +124,8 @@
 			<div class="blog-tags"><?php the_tags( __( 'Tagged with: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?></div>
 
 			<div class="blog-recommend">
-				<div class="blog-recommend-prev"><?php echo previous_post_link('<span class="prev-next">PREV</span><span class="prev-next-link">%link</span>','%title',TRUE); ?></div>
-				<div class="blog-recommend-next"><?php echo next_post_link('<span class="prev-next-link">%link</span><span class="prev-next">NEXT</span>','%title',TRUE); ?></div>
+				<div class="blog-recommend-prev"><?php echo previous_post_link('<span class="prev-text">PREVIOUS POST</span>← <span class="prev-next-link">%link</span>','%title',TRUE); ?></div>
+				<div class="blog-recommend-next"><?php echo next_post_link('<span class="next-text">NEXT POST</span><span class="prev-next-link">%link</span> →','%title',TRUE); ?></div>
 			</div>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
