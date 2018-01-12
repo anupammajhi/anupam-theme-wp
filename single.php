@@ -80,6 +80,10 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
+	li.theChampSelectedTab{
+	color:transparent;
+	border:0;
+}
 </style>
 
 
