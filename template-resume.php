@@ -74,9 +74,9 @@
 		position: absolute;
 		right:4em;
 		font-size:0.9em;
+		margin-top: 1.8em;
 	}
 	.resume-download a{
-
 		border: 1px solid #2D75C6;
 		border-radius:0.5em;
 		padding: 0.5em;
