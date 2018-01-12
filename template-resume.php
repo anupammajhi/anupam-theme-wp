@@ -70,6 +70,17 @@
 		font-weight:bold;
 		margin-top:0;
 	}
+	.resume-download{
+		position: absolute;
+		right:4em;
+		font-size:0.9em;
+	}
+	.resume-download a{
+
+		border: 1px solid #2D75C6;
+		border-radius:0.5em;
+		padding: 0.5em;
+	}
 </style>
 	<main role="main">
 		<!-- section -->
@@ -78,7 +89,8 @@
 		<div class="name-box">
 		<h1>ANUPAM MAJHI</h1>
 		</div>
-
+		<div class="resume-download"><a href="<?php $upload_dir = wp_upload_dir();
+					echo $upload_dir['baseurl']; ?>/resume.pdf">Downloadable PDF</a></div>
 		<div class="resume-section">
 			<div class="resume-1">
 				<h1>Profile Summary</h1>
