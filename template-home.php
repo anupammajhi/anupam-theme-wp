@@ -56,6 +56,61 @@
 	.selectedText { /*For Typist js*/
   		display: none;
 	}
+	.blinking-cursor {
+		font-weight: 100;
+		font-size: 30px;
+		color: #ddd;
+		-webkit-animation: 0.5s blink step-end infinite;
+		-moz-animation: 0.5s blink step-end infinite;
+		-ms-animation: 0.5s blink step-end infinite;
+		-o-animation: 0.5s blink step-end infinite;
+		animation: 0.5s blink step-end infinite;
+	}
+
+	@keyframes "blink" {
+		from, to {
+			color: transparent;
+		}
+		50% {
+			color: white;
+		}
+	}
+
+	@-moz-keyframes blink {
+		from, to {
+			color: transparent;
+		}
+		50% {
+			color: white;
+		}
+	}
+
+	@-webkit-keyframes "blink" {
+		from, to {
+			color: transparent;
+		}
+		50% {
+			color: white;
+		}
+	}
+
+	@-ms-keyframes "blink" {
+		from, to {
+			color: transparent;
+		}
+		50% {
+			color: white;
+		}
+	}
+
+	@-o-keyframes "blink" {
+		from, to {
+			color: transparent;
+		}
+		50% {
+			color: white;
+		}
+	}
 
 </style>
 	<main role="main">
@@ -81,7 +136,7 @@
 				});
 			});
 		</script>
-		<h2>I am <span id="skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span></h2>
+		<h2>I am <span id="skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span><span class="blinking-cursor">|</span></h2>
 		</div>
 		
 		</section>
