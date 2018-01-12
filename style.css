@@ -219,32 +219,33 @@ pre{
     font-style:normal;
 }
 
-/*------------------------------------*\
-    RESPONSIVE
-\*------------------------------------*/
-
-@media only screen and (min-width:320px) {
-
-}
-@media only screen and (min-width:480px) {
-
-}
-@media only screen and (min-width:768px) {
-
-}
-@media only screen and (min-width:1024px) {
-
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-	   only screen and (min-resolution:144dpi) {
-
-}
+.loader {
+	height: 4px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+	z-index: 100000;
+  }
+  .loader:before{
+	display: block;
+	position: absolute;
+	content: "";
+	left: -200px;
+	width: 200px;
+	height: 4px;
+	background-color: rgb(60, 142, 236);
+	animation: loading 2s linear infinite;
+  }
+  
+  @keyframes loading {
+	  from {left: -200px; width: 30%;}
+	  50% {width: 30%;}
+	  70% {width: 70%;}
+	  80% { left: 50%;}
+	  95% {left: 120%;}
+	  to {left: 100%;}
+  }
 
 /*------------------------------------*\
     MISC
@@ -522,4 +523,32 @@ a img.aligncenter {
 	h3 {
 		page-break-after:avoid;
 	}
+}
+
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
 }
