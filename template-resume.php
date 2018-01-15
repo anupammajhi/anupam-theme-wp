@@ -4,80 +4,12 @@
 	.am-bg-overlay{
 		opacity: 0.05;
 	}
-	.name-box{
-		margin-top:60px;
-	}
-	.resume-section{
-		margin-top:2em;
-		text-align: left;
-	}
-	.resume-1{
-		text-align:left;
-		width:63%;
-		display:inline-block;
-		vertical-align:top;
-		padding: 20px;
-	}
-	.resume-1 p,
-	.resume-2 p{
-		
-	}
-	.resume-2{
-		text-align:left;
-		width:33%;
-		display:inline-block;
-		padding: 20px;
-		vertical-align:top;
-	}
-	.resume-1 h1,
-	.resume-2 h1{
-		text-align:left;
-		font-weight:400;
-		padding: 20px 0 10px;
-		border-bottom: 1px solid #ccc;
-	}
-	.years{
-		float:right;
-		font-size:0.8em;
-		vertical-align:bottom;
-	}
-	.highlight{
-		color:#2D75C6;
-		font-weight:600;
-	}
-	.resume-info-main-p{
-		margin:1em 0 0;
-	}
-	.resume-info{
-		font-style:oblique;
-		margin:0;
-		font-size:0.9em;
-		font-weight:600;
-	}
-	.resume-info2{
-		font-size:0.9em;
-	}
-	.refer-link{
-		font-weight:bold;
-		margin-top:0;
-	}
-	.resume-download{
-		position: absolute;
-		right:4em;
-		font-size:0.9em;
-		margin-top: 1.8em;
-	}
-	.resume-download a{
-		border: 1px solid #2D75C6;
-		border-radius:0.5em;
-		padding: 0.5em;
-	}
 </style>
 	<main role="main">
 		<!-- section -->
 		<section>
 
-		<div class="name-box">
+		<div class="resume-name-box">
 		<h1>ANUPAM MAJHI</h1>
 		</div>
 		<div class="resume-download"><a href="<?php $upload_dir = wp_upload_dir();
@@ -88,18 +20,18 @@
 				<p>Infrastructure Automation Engineer with 4 yrs experience in providing automation & integration to complex infrastructure services while providing technical leadership to cross functional teams in design, development and integration.</p>
 				
 				<h1>Academic Credentials</h1>
-				<p class="resume-info-main-p"><span class="highlight">PG Diploma in Data Science</span> <span class="years">[July 2017 - Today]</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">PG Diploma in Data Science</span> <span class="resume-years">[July 2017 - Today]</span></p>
 				<p class="resume-info">IIIT-Bangalore & UpGrad | CGPA 4/4</p>
 				<p class="resume-info2">Completed projects on Data Management, Statistics, EDA and Predictive Analytics courses.
 					Implemented CRISP-DM Framework, Linear Regression and Logistic Regression in Auto, Telecom & BFSI Industry projects.
 					Consistently scored >80th Percentile on all projects and received appreciations from Upgrad. <a class="refer-link" href="https://github.com/anupammajhi/PGDDS-Project">[Github]</a></p>
 				
-				<p class="resume-info-main-p"><span class="highlight">B.E. in Computer Science & Engineering</span> <span class="years">[2009 - 2013]</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">B.E. in Computer Science & Engineering</span> <span class="resume-years">[2009 - 2013]</span></p>
 				<p class="resume-info">K. S. Institute of Technology | Score 70%</p>
 				<p class="resume-info">Visvesvaraya Technological University, Bangalore</p>
 				<br>
 				<h1>Work Experience</h1>
-				<p class="resume-info-main-p"><span class="highlight">Infrastructure Automation Engineer</span> <span class="years">[2016 - Today]</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">Infrastructure Automation Engineer</span> <span class="resume-years">[2016 - Today]</span></p>
 				<p class="resume-info">HCL Technologies, Bangalore</p>
 				<p class="resume-info">Client: Leo Pharma and Techem</p>
 				<p class="resume-info2">
@@ -111,7 +43,7 @@
 					<li>Report generation, Analysis and Monitoring automation implemented.</li>
 					</ul>
 				</p>
-				<p class="resume-info-main-p"><span class="highlight">Senior Technical Specialist</span> <span class="years">[2013 - 2016]</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">Senior Technical Specialist</span> <span class="resume-years">[2013 - 2016]</span></p>
 				<p class="resume-info">VOLVO, Bangalore</p>
 				<p class="resume-info2">
 					<ul>
@@ -122,15 +54,15 @@
 				</p>
 
 				<h1>Key Academic Projects</h1>
-				<p class="resume-info-main-p"><span class="highlight">Auto Demand-Supply</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">Auto Demand-Supply</span></p>
 				<p class="resume-info2">
 				Studied Demand-Supply gap to identify reasons for the gap and possible solutions based on 6500+ complete/incomplete driver trip data.
 				</p>
-				<p class="resume-info-main-p"><span class="highlight">Employee Attrition Model</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">Employee Attrition Model</span></p>
 				<p class="resume-info2">
 				Predicted employees likely to leave the company with 75% accuracy by analysing 4000+ employees’ data. Identified best model out of Logistic Regression.
 				</p>
-				<p class="resume-info-main-p"><span class="highlight">Health and Security Vault (HASV) - Android Based Emergency UTIL</span></p>
+				<p class="resume-info-main-p"><span class="resume-highlight">Health and Security Vault (HASV) - Android Based Emergency UTIL</span></p>
 				<p class="resume-info2">
 				Android based emergency alarm and complete health management application for common use mainly emphasizing on Easy-to-Use Interface for emergency use. It includes: Accident Alert, Theft Alert, Consult Doctor Online, Custom/ Personalized Alerts
 				</p>
@@ -148,7 +80,7 @@
 					</ul>
 				</div>
 			<h1>Skills & Interests</h1>
-			<p class="resume-info-main-p"><span class="highlight">Specializations</span></p>
+			<p class="resume-info-main-p"><span class="resume-highlight">Specializations</span></p>
 				<div class="resume-info2">
 					<ul>
 					<li>Computer Science (in general)</li>
@@ -158,7 +90,7 @@
 					<li>Machine Learning & AI</li>
 					</ul>
 				</div>
-			<p class="resume-info-main-p"><span class="highlight">Programming / Scripting Lang</span></p>
+			<p class="resume-info-main-p"><span class="resume-highlight">Programming / Scripting Lang</span></p>
 				<div class="resume-info2">
 					<ul>
 					<li>Powershell / VBScript</li>
@@ -169,7 +101,7 @@
 					<li>Python</li>
 					</ul>
 				</div>
-			<p class="resume-info-main-p"><span class="highlight">Technology Familiarity</span></p>
+			<p class="resume-info-main-p"><span class="resume-highlight">Technology Familiarity</span></p>
 				<div class="resume-info2">
 					<ul>
 					<li>Windows Servers</li>
@@ -181,7 +113,7 @@
 					<li>Web Development Stacks</li>
 					</ul>
 				</div>
-			<p class="resume-info-main-p"><span class="highlight">Accolades</span></p>
+			<p class="resume-info-main-p"><span class="resume-highlight">Accolades</span></p>
 				<div class="resume-info2">
 					<ul>
 					<li><strong>VOLVO</strong> Competence Excellence Award for display of leadership and competence.</li>

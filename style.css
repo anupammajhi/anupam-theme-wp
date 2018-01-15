@@ -290,6 +290,160 @@ main h1{
 	z-index:-1;
 	opacity: 0.6;
 }
+.blinking-cursor {
+	font-weight: 100;
+	font-size: 30px;
+	color: #ddd;
+	-webkit-animation: 0.5s blink step-end infinite;
+	-moz-animation: 0.5s blink step-end infinite;
+	-ms-animation: 0.5s blink step-end infinite;
+	-o-animation: 0.5s blink step-end infinite;
+	animation: 0.5s blink step-end infinite;
+}
+#home-intro{
+	font-family: 'Montserrat', sans-serif;
+	position:fixed;
+	z-index:100;
+	bottom:10%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	test-align:center;
+	line-height:4em;
+	color:#eee;
+}
+#home-intro h1 {
+	text-align:center;
+	font-size:5em;
+	font-weight:600;
+	margin:0;
+}
+#home-intro h2{
+	text-align:center;
+	font-size:2em;
+	margin:20px 0 0 0;
+	font-weight:400;
+}
+#home-skills{
+	font-weight:600;
+	color:#1b7ee8;
+}
+.selectedText { /*For Typist js*/
+	  display: none;
+}
+.resume-name-box{
+	margin-top:60px;
+}
+.resume-section{
+	margin-top:2em;
+	text-align: left;
+}
+.resume-1{
+	text-align:left;
+	width:63%;
+	display:inline-block;
+	vertical-align:top;
+	padding: 20px;
+}
+.resume-1 p,
+.resume-2 p{
+	
+}
+.resume-2{
+	text-align:left;
+	width:33%;
+	display:inline-block;
+	padding: 20px;
+	vertical-align:top;
+}
+.resume-1 h1,
+.resume-2 h1{
+	text-align:left;
+	font-weight:400;
+	padding: 20px 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+.resume-years{
+	float:right;
+	font-size:0.8em;
+	vertical-align:bottom;
+}
+.resume-highlight{
+	color:#2D75C6;
+	font-weight:600;
+}
+.resume-info-main-p{
+	margin:1em 0 0;
+}
+.resume-info{
+	font-style:oblique;
+	margin:0;
+	font-size:0.9em;
+	font-weight:600;
+}
+.resume-info2{
+	font-size:0.9em;
+}
+.refer-link{
+	font-weight:bold;
+	margin-top:0;
+}
+.resume-download{
+	position: absolute;
+	right:4em;
+	font-size:0.9em;
+	margin-top: 1.8em;
+}
+.resume-download a{
+	border: 1px solid #2D75C6;
+	border-radius:0.5em;
+	padding: 0.5em;
+}
+
+@keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-webkit-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-ms-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-o-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
 
 /*------------------------------------*\
     MISC

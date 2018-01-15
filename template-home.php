@@ -4,92 +4,6 @@
 	.am-bg{
 		background-image: url('<?php echo $backgroundImg[0]; ?>');
 	}
-	#home-intro{
-		font-family: 'Montserrat', sans-serif;
-		position:fixed;
-		z-index:100;
-		bottom:10%;
-		left:50%;
-		transform: translate(-50%,-50%);
-		test-align:center;
-		line-height:4em;
-		color:#eee;
-	}
-	#home-intro h1 {
-		text-align:center;
-		font-size:5em;
-		font-weight:600;
-		margin:0;
-	}
-	#home-intro h2{
-		text-align:center;
-		font-size:2em;
-		margin:20px 0 0 0;
-		font-weight:400;
-	}
-	#skills{
-		font-weight:600;
-		color:#1b7ee8;
-	}
-	.selectedText { /*For Typist js*/
-  		display: none;
-	}
-	.blinking-cursor {
-		font-weight: 100;
-		font-size: 30px;
-		color: #ddd;
-		-webkit-animation: 0.5s blink step-end infinite;
-		-moz-animation: 0.5s blink step-end infinite;
-		-ms-animation: 0.5s blink step-end infinite;
-		-o-animation: 0.5s blink step-end infinite;
-		animation: 0.5s blink step-end infinite;
-	}
-
-	@keyframes "blink" {
-		from, to {
-			color: transparent;
-		}
-		50% {
-			color: white;
-		}
-	}
-
-	@-moz-keyframes blink {
-		from, to {
-			color: transparent;
-		}
-		50% {
-			color: white;
-		}
-	}
-
-	@-webkit-keyframes "blink" {
-		from, to {
-			color: transparent;
-		}
-		50% {
-			color: white;
-		}
-	}
-
-	@-ms-keyframes "blink" {
-		from, to {
-			color: transparent;
-		}
-		50% {
-			color: white;
-		}
-	}
-
-	@-o-keyframes "blink" {
-		from, to {
-			color: transparent;
-		}
-		50% {
-			color: white;
-		}
-	}
-
 </style>
 	<main role="main">
 		<!-- section -->
@@ -107,14 +21,14 @@
 		<script type="text/javascript">
 			jQuery(document).ready(function( $ ) {
 				var typist;
-				typist = document.querySelector("#skills");
+				typist = document.querySelector("#home-skills");
 				new Typist(typist, {
 				letterInterval: 60,
 				textInterval: 3000
 				});
 			});
 		</script>
-		<h2>I am <span id="skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span><span class="blinking-cursor">|</span></h2>
+		<h2>I am <span id="home-skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span><span class="blinking-cursor">|</span></h2>
 		</div>
 		
 		</section>
