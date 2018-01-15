@@ -29,8 +29,6 @@
 	</head>
 	<body <?php body_class(); ?>>
 	<div class="loading loader"></div>
-	<div class="am-bg"></div>
-	<div class="am-bg-overlay"></div> <!-- For Background as per featured image -->
 		<!-- wrapper -->
 		<div class="wrapper">
 
