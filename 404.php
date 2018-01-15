@@ -1,27 +1,9 @@
 <?php get_header('blogpost'); ?>
 <style type="text/css">
 	.am-bg{
-		position: fixed;
-		top:0;
-		left:0;
-		height: 100%;
-		width:100%;
 		background-image: url("<?php echo get_template_directory_uri(); ?>/img/404.jpeg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		z-index:-10;
-		opacity: 0.7;
-		filter: blur(10);
 	}
 	.am-bg-overlay{
-		position: fixed;
-		top:0;
-		left:0;
-		height: 100%;
-		width:100%;
-		background: #000;
-		z-index:-1;
 		opacity: 0.2;
 	}
 	main{
@@ -43,7 +25,7 @@
 		margin:0;
 		line-height:0.7em;
 	}
-	.go-home{
+	.go-home-404{
 		color:#ccc;
 		background: #555;
 		background: rgba(0,0,0,0.65);
@@ -52,7 +34,7 @@
 		display:inline-block;
 		border-radius:0.4em;
 	}
-	.go-home:hover{
+	.go-home-404:hover{
 		background: #333;
 		background: rgba(0,0,0,0.80);
 		color:#fff;
@@ -69,10 +51,10 @@
 				<h1 class="text-404">404</h1>
 				<h1>Not Sure What You Are Looking For?</h1>
 				<h2>
-					<a class="go-home" href="<?php echo home_url(); ?>"><?php _e( 'Go to HOME', 'html5blank' ); ?></a>
+					<a class="go-home-404" href="<?php echo home_url(); ?>"><?php _e( 'Go to HOME', 'html5blank' ); ?></a>
 				</h2>
 				<h2>
-					<a class="go-home" href="<?php echo home_url(); ?>/blog"><?php _e( 'Go to BLOG', 'html5blank' ); ?></a>
+					<a class="go-home-404" href="<?php echo home_url(); ?>/blog"><?php _e( 'Go to BLOG', 'html5blank' ); ?></a>
 				</h2>
 				
 			</article>
