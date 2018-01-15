@@ -290,7 +290,7 @@ main h1{
 	z-index:-1;
 	opacity: 0.6;
 }
-.blinking-cursor {
+.home-blinking-cursor {
 	font-weight: 100;
 	font-size: 30px;
 	color: #ddd;
@@ -307,19 +307,19 @@ main h1{
 	bottom:10%;
 	left:50%;
 	transform: translate(-50%,-50%);
-	test-align:center;
+	text-align:center;
 	line-height:4em;
 	color:#eee;
 }
 #home-intro h1 {
 	text-align:center;
-	font-size:5em;
+	font-size:3.2em;
 	font-weight:600;
 	margin:0;
 }
 #home-intro h2{
 	text-align:center;
-	font-size:2em;
+	font-size:1.5em;
 	margin:20px 0 0 0;
 	font-weight:400;
 }

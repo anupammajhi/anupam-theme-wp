@@ -4,6 +4,9 @@
 	.am-bg-overlay{
 		opacity: 0.05;
 	}
+	main{
+		color: #555;
+	}
 </style>
 	<main role="main">
 		<!-- section -->

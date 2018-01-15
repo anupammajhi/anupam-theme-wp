@@ -28,7 +28,7 @@
 				});
 			});
 		</script>
-		<h2>I am <span id="home-skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span><span class="blinking-cursor">|</span></h2>
+		<h2>I am <span id="home-skills" data-typist="an Automation Engineer.,a Data Scientist.,a Geek.">a Developer.</span><span class="home-blinking-cursor">|</span></h2>
 		</div>
 		
 		</section>
