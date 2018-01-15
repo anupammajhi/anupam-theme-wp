@@ -205,6 +205,7 @@ pre{
 	padding:10px;
 	display: block;
 	font-family: 'Source Code Pro', monospace;
+	font-size:0.9em;
 }
 
 
@@ -487,6 +488,92 @@ main h1{
 	text-align: center;
 	font-size: 1.6em;
 	padding:0.5em;
+}
+.blogpost-article{
+	text-align:center;
+	font-size: 0.9em;
+}
+.blogpost-title{
+	margin: 1em 0 0.7em 0;
+	padding:20px 0 35px;
+	border-bottom: 1px solid #ddd;
+	font-weight:400;
+	font-size: 1.6em;
+}
+.blogpost-content{
+	text-align:left;
+	padding:2em 0;
+	font-size:1.1em;
+}
+.blogpost-author,
+.blogpost-date,
+.blogpost-views{
+	padding : 8px;
+	font-size: 0.9em;
+}
+.blogpost-category{
+	margin : 10px;
+	font-size: 0.8em;
+}
+.blogpost-category a{
+	background: #000;
+	color: #eee;
+	padding: 3px 5px;
+	margin: 5px; 
+	font-weight:bold;
+}
+.blogpost-category a:hover{
+	background: #555;
+}
+.blogpost-tags{
+	margin: 0 auto 4em;
+}
+.the_champ_sharing_container{
+	padding:2em;
+	transform: translate(30px,0);
+}
+.the_champ_sharing_title{
+	text-align:center;
+}
+
+.blogpost-recommend-prev,
+.blogpost-recommend-next{
+	display: inline-block;
+	margin:1em 0;
+	text-align:center;
+	vertical-align:top;
+	width:48%;
+}
+.blogpost-recommend-prev{
+	text-align:left;
+}
+.blogpost-recommend-next{
+	text-align:right;
+}
+.blogpost-prev-text,
+.blogpost-next-text{
+	font-weight:bold;
+	display:block;
+	vertical-align:middle;
+	color:#ccc;
+}
+.blogpost-next-text{
+	text-align:right;
+}
+.blogpost-prev-next-link{
+	display:inline-block;
+	max-width:92%;
+	vertical-align:middle;
+	padding:1em 0;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+li.theChampSelectedTab,
+#theChampReplyTitle{ /*Hide Comment Title from Widget*/
+	color:transparent !important;
+	border:0 !important;
+	font-size:0 !important;
 }
 .about-box{
 	margin-top:30px;
