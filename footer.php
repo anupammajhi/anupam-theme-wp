@@ -27,8 +27,13 @@
 		jQuery(document).ready(function( $ ) {
 		
 			setTimeout(function(){
-				$(".loading").delay(5000).removeClass("loader");
-			}, 2000);
+				$(".loading").removeClass("loader");
+			}, 1000);
+
+			$("#ham-menu").click(function(){
+				$(".mini-header").toggleClass("mini-header-move");
+				$("header,footer").toggleClass("menu-visible");
+			});
 
 		});
 

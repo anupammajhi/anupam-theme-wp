@@ -75,11 +75,11 @@
 			<h1 class="resume-h1">Contact Info</h1>
 				<div class="resume-info2">
 					<ul>
-					<li>Mob : <strong>+91 8088421654</strong></li>
-					<li>Mail : <strong><a href="mailto:majhi.anupam@gmail.com">majhi.anupam@gmail.com</a></strong></li>
-					<li>Web : <strong><a href="http://anupamm.com">http://anupamm.com</a></strong></li>
-					<li><strong><a href="https://github.com/anupammajhi">Github</a>&nbsp;&nbsp; · &nbsp;&nbsp;<a href="https://www.linkedin.com/in/anupammajhi/">Linkedin</a></strong></li>
-					<li><strong>Bangalore, India</strong></li>
+					<li>Mob : +91 8088421654</li>
+					<li>Mail : <a href="mailto:majhi.anupam@gmail.com">majhi.anupam@gmail.com</a></li>
+					<li>Web : <a href="http://anupamm.com">http://anupamm.com</a></li>
+					<li><a href="https://github.com/anupammajhi">Github</a>&nbsp;&nbsp; · &nbsp;&nbsp;<a href="https://www.linkedin.com/in/anupammajhi/">Linkedin</a></li>
+					<li>Bangalore, India</li>
 					</ul>
 				</div>
 			<h1>Skills & Interests</h1>

@@ -31,6 +31,13 @@
 	<div class="loading loader"></div>
 	<div class="am-bg"></div>
 	<div class="am-bg-overlay"></div> <!-- For Background as per featured image -->
+	<div class="mini-header">
+	<a href="#" id="ham-menu">
+		<div class="ham-menu-bar"></div>
+		<div class="ham-menu-bar"></div>
+		<div class="ham-menu-bar"></div>
+	</a><div id="my-name"><h2>ANUPAM MAJHI</h2></div>
+	</div>
 		<!-- wrapper -->
 		<div class="wrapper">
 

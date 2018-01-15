@@ -41,8 +41,8 @@
 			<div class="blogpost-tags"><?php the_tags( __( 'Tagged with: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?></div>
 			
 			<div class="blog-recommend">
-				<div class="blogpost-recommend-prev"><?php echo previous_post_link('<span class="blogpost-prev-text">PREVIOUS POST</span>← <span class="blogpost-prev-next-link">%link</span>','%title',TRUE); ?></div>
-				<div class="blogpost-recommend-next"><?php echo next_post_link('<span class="blogpost-next-text">NEXT POST</span><span class="blogpost-prev-next-link">%link</span> →','%title',TRUE); ?></div>
+				<div class="blogpost-recommend-prev"><?php echo previous_post_link('<span class="blogpost-prev-text">PREVIOUS POST</span><span class="blogpost-prev-next-link">%link</span>','%title',TRUE); ?></div>
+				<div class="blogpost-recommend-next"><?php echo next_post_link('<span class="blogpost-next-text">NEXT POST</span><span class="blogpost-prev-next-link">%link</span>','%title',TRUE); ?></div>
 			</div>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>

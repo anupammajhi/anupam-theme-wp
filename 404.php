@@ -6,11 +6,7 @@
 	.am-bg-overlay{
 		opacity: 0.2;
 	}
-	main{
-		color: #444;
-		font-size: 1.5em;
-		text-align:center;
-	}
+	
 	main .iconworks{
 	text-align: center;
 	font-size: 4em;
@@ -19,27 +15,6 @@
 	margin:0;
 	color:#CC2329;
 	}
-
-	.text-404{
-		font-size:5em;
-		margin:0;
-		line-height:0.7em;
-	}
-	.go-home-404{
-		color:#ccc;
-		background: #555;
-		background: rgba(0,0,0,0.65);
-		margin: 0.6em;
-		padding:1em;
-		display:inline-block;
-		border-radius:0.4em;
-	}
-	.go-home-404:hover{
-		background: #333;
-		background: rgba(0,0,0,0.80);
-		color:#fff;
-	}
-
 </style>
 	<main role="main">
 		<!-- section -->

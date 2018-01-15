@@ -33,6 +33,13 @@
 
 	</head>
 	<body <?php body_class(); ?>>
+	<div class="mini-header">
+	<a href="#" id="ham-menu">
+		<div class="ham-menu-bar"></div>
+		<div class="ham-menu-bar"></div>
+		<div class="ham-menu-bar"></div>
+	</a><div id="my-name"><h2>ANUPAM MAJHI</h2></div>
+	</div>
 	<div class="loading loader"></div>
 		<!-- wrapper -->
 		<div class="wrapper">
