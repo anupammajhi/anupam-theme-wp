@@ -23,6 +23,17 @@
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
+
+		jQuery(document).ready(function( $ ) {
+		
+			setTimeout(function(){
+				$(".loading").delay(5000).removeClass("loader");
+			}, 2000);
+
+		});
+
+
+
 		</script>
 
 
