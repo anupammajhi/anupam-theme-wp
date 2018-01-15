@@ -1,17 +1,8 @@
 <?php /* Template Name: Resume Page Template */ get_header(); ?>
 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 <style type="text/css">
-	main{
-		color: #444;
-		font-size: 1.5em;
-	}
-	main h1{
-	text-align: center;
-	font-size: 2em;
-	font-style: normal;
-	margin:0;
-	font-weight:900;
-	line-height:0.5;
+	.am-bg-overlay{
+		opacity: 0.05;
 	}
 	.name-box{
 		margin-top:60px;

@@ -226,8 +226,8 @@ pre{
 	overflow: hidden;
 	background-color: transparent;
 	z-index: 100000;
-  }
-  .loader:before{
+}
+.loader:before{
 	display: block;
 	position: absolute;
 	content: "";
@@ -236,16 +236,60 @@ pre{
 	height: 4px;
 	background-color: rgb(60, 142, 236);
 	animation: loading 2s linear infinite;
-  }
+}
   
-  @keyframes loading {
+@keyframes loading {
 	  from {left: -200px; width: 30%;}
 	  50% {width: 30%;}
 	  70% {width: 70%;}
 	  80% { left: 50%;}
 	  95% {left: 120%;}
 	  to {left: 100%;}
-  }
+}
+
+main{
+	color: #bbb;
+	font-size: 1.5em;
+}
+main .iconworks{
+	text-align: center;
+	font-size: 3em;
+	font-style: normal;
+	display: block;
+	margin:0;
+}
+main h1{
+	text-align: center;
+	font-size: 2em;
+	font-style: normal;
+	margin:0;
+	font-weight:900;
+	line-height:0.5;
+}
+.am-bg{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background-image: url('<?php echo $backgroundImg[0]; ?>');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index:-10;
+	opacity: 0.7;
+	filter: blur(10);
+}
+.am-bg-overlay{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background: #000;
+	z-index:-1;
+	opacity: 0.6;
+}
 
 /*------------------------------------*\
     MISC
@@ -550,5 +594,35 @@ a img.aligncenter {
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 	   only screen and (min-resolution:144dpi) {
+
+}
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
 
 }

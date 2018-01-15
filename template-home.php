@@ -2,29 +2,7 @@
 <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
 <style type="text/css">
 	.am-bg{
-		position: fixed;
-		top:0;
-		left:0;
-		height: 100%;
-		width:100%;
 		background-image: url('<?php echo $backgroundImg[0]; ?>');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		z-index:-10;
-		opacity: 0.9;
-	}
-	.bg-video{
-		position:fixed;
-		top:50%;
-		left:50%;
-		transform: translate(-50%,-50%);
-		min-width:100%;
-		min-height:100%;
-		width:auto;
-		height:auto;
-		opacity:0.9;
-		z-index:10;
 	}
 	#home-intro{
 		font-family: 'Montserrat', sans-serif;
