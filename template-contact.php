@@ -4,39 +4,6 @@
 	.am-bg{
 		background-image: url('<?php echo $backgroundImg[0]; ?>');
 	}
-	.contact-box{
-		margin-top:30px;
-	}
-	.contact-spec-box{
-		text-align:center;
-		margin: 1.5em 1em;
-	}
-	.contact-spec{
-		text-align:center;
-		display:inline-block;
-		padding: 1em 4em;
-	}
-	.contact-spec .iconworks{
-	}
-	.contact-spec p{
-		margin:0;
-		word-wrap: break-word;
-	}
-	.contact-spec a{
-		text-decoration:none;
-		color:#bbb;
-		
-	}
-	.contact-social{
-		text-align:center;
-		margin: 4em 1em 0 1em;
-	}
-	.twitter-timeline-box{
-		text-align:center;
-    	max-width: 400px;
-    	margin: 0 auto;
-	}
-	
 </style>
 	<main role="main">
 		<!-- section -->
@@ -73,7 +40,7 @@
 			</div>
 		</div>
 
-		<div class="twitter-timeline-box">
+		<div class="contact-twitter-timeline-box">
 		<a class="twitter-timeline" data-width="500" data-height="800" href="https://twitter.com/anupamfx">Tweets by Anupam</a> 
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
