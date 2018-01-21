@@ -130,21 +130,21 @@ main {
 }
 .nav ul{
 	list-style-type: none;
-	padding: 0;
+	padding: 1px;
 }
 .nav ul li{
 	border-bottom: 1px solid #444;
-	padding: 10px 0;
+	padding: 4px 0;
 }
 .nav ul i{
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 1.9em;
 	font-style: normal;
 	display: block;
 }
 .nav p{
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	margin-top: 0;
 }
 .nav a{
@@ -179,6 +179,9 @@ main {
 
 .wrapper {
 	margin-top: 0;
+}
+.wp-post-image{
+	max-height:320px;
 }
 
 /*------------------------------------*\
@@ -249,7 +252,7 @@ pre{
 }
 
 main{
-	color: #bbb;
+	color: #ddd;
 	font-size: 1.4em;
 	text-align:center;
 }
@@ -273,8 +276,8 @@ main h1{
 	top:0;
 	left:0;
 	height: 100%;
+	height: 100vh;
 	width:100%;
-	background-image: url('<?php echo $backgroundImg[0]; ?>');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -287,11 +290,24 @@ main h1{
 	top:0;
 	left:0;
 	height: 100%;
+	height: 100vh;
 	width:100%;
 	background: #000;
 	z-index:-1;
 	opacity: 0.6;
 }
+.bg-video{
+		position:fixed;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		min-width:100%;
+		min-height:100%;
+		width:auto;
+		height:auto;
+		opacity:0.9;
+		z-index:10;
+	}
 .home-blinking-cursor {
 	font-weight: 100;
 	font-size: 30px;
@@ -317,7 +333,7 @@ main h1{
 	text-align:center;
 	font-size:3.2em;
 	font-weight:600;
-	line-height:0.5;
+	line-height:0.9;
 	margin:0;
 }
 #home-intro h2{
@@ -455,6 +471,7 @@ main h1{
 }
 .blog-cat-box ul{
 	list-style-type: none; 
+	padding: 5px;
 }
 .blog-cat-box .iconworks{
 	font-size:0.7em;
@@ -629,7 +646,7 @@ li.theChampSelectedTab,
 	width:100%;
 	height:50px;
 	background: #1b7ee8;
-	color:#ccc;
+	color:#eee;
 	position:fixed;
 	top:0;
 	z-index:5000;
@@ -646,7 +663,7 @@ li.theChampSelectedTab,
 .ham-menu-bar{
 	width: 25px;
     height: 2px;
-    background-color: #ccc;
+    background-color: #eee;
     margin: 6px 0;
 }
 #ham-menu{
@@ -1032,7 +1049,7 @@ a img.aligncenter {
 		font-size: 2em;
 	}
 	.nav p{
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 	.logo p{
 		font-size:1em;
@@ -1047,7 +1064,7 @@ a img.aligncenter {
 	 	max-width:350px;
 	}
 	.nav ul li {
-		padding: 5px 0;
+		padding: 2px 0;
 	}
 }
 
@@ -1063,7 +1080,7 @@ a img.aligncenter {
 		font-size: 1.6em;
 	}
 	.nav p{
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 	.logo p{
 		font-size:0.9em;
@@ -1097,6 +1114,9 @@ a img.aligncenter {
 	.about-img{
 		width:36%;
 	}
+	.nav ul i{
+	font-size: 1.5em;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -1110,7 +1130,7 @@ a img.aligncenter {
 		padding-top: 30px;
 	}
 	#home-intro{
-		top: 50%;
+		top: 30%;
 		left:0;
 		right:0;
 		transform: translate(0,0);
@@ -1129,6 +1149,9 @@ a img.aligncenter {
 	}
 	.mini-header{
 		visibility: visible;
+	}
+	section{
+		margin-top:20px;
 	}
 }
 

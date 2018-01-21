@@ -1,25 +1,6 @@
 <?php get_header('blogpost'); ?>
 
 <style type="text/css">
-	main{
-		color: #666;
-		font-size: 1.5em;
-	}
-	main .iconworks{
-	text-align: center;
-	font-size: 3em;
-	font-style: normal;
-	display: block;
-	margin:0;
-	}
-	main h1{
-	text-align: center;
-	font-size: 2em;
-	font-style: normal;
-	margin:0;
-	font-weight:900;
-	line-height:0.5;
-	}
 	.head-box{
 		margin-top:30px;
 	}

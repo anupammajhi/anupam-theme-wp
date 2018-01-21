@@ -16,6 +16,8 @@
 	color:#CC2329;
 	}
 </style>
+<div class="am-bg"></div>
+	<div class="am-bg-overlay"></div> <!-- For Background as per featured image -->
 	<main role="main">
 		<!-- section -->
 		<section>
